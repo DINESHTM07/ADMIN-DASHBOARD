@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar-wrapper {
+  min-width: 250px;
+  max-width: 250px;
+  transition: all 0.3s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: -250px;
+}
+
+.sidebar-heading {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #343a40;
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px 20px;
+}
+
+.list-group-item:hover {
+  background-color: #495057;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.card .display-4 {
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 20px;
+}
